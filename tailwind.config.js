@@ -5,7 +5,12 @@ export default {
     './index.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'default': 'Montserrat, sans-serif',
+        'title': 'Anton, sans-serif'
+      }
+    },
   },
   plugins: [],
 }
