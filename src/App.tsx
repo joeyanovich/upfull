@@ -5,8 +5,9 @@ import './style/global.css'
 
 export function App() {
   return (
-    <div>
-      <Cerebro />
+    <div className="bg-background">
+        <Menu />
+        <Cerebro />
     </div>
   )
 }

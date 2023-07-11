@@ -25,7 +25,7 @@ export function Cerebro (){
 
     
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full bg-black">
       <motion.img
         src={`/src/assets/img/brain/${currentFrame}.png`}
         className='transition ease-in-out delay-150'
