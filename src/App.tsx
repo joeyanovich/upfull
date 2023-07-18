@@ -32,10 +32,10 @@ import './style/global.css'
 export function App() {
   return (
     <div className="bg-background">
-        <Menu />
-        <Cerebro />
+      <Menu />
+      <Cerebro />
 
-        <Papel img1={lamp1} img2={lamp2} img3={lamp3} img4={lamp4} />
+      <Papel img1={lamp1} img2={lamp2} img3={lamp3} img4={lamp4} />
       <Papel img1={origami1} img2={origami2} img3={origami3} img4={origami4} />
       <Papel img1={pincel1} img2={pincel2} img3={pincel3} img4={pincel4} />
       <Papel img1={tinta1} img2={tinta2} img3={tinta3} img4={tinta4} />
