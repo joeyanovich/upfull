@@ -12,19 +12,19 @@ interface NavMenuProps {
       props.setIsMenuOpen(false);
     };
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            if (currentImageIndex < images.length - 1) {
-              setCurrentImageIndex(currentImageIndex + 1);
-            } else {
-              clearInterval(interval);
-            }
-          }, 500);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         if (currentImageIndex < images.length - 1) {
+    //           setCurrentImageIndex(currentImageIndex + 1);
+    //         } else {
+    //           clearInterval(interval);
+    //         }
+    //       }, 500);
     
-          return () => {
-            clearInterval(interval);
-          };
-    }, [])
+    //       return () => {
+    //         clearInterval(interval);
+    //       };
+    // }, [])
 
     return(
         <section  className="fixed z-10 w-screen h-screen bg-[url('/src/assets/img/bg-menu.jpg')] bg-no-repeat bg-cover overflow-hidden">

@@ -1,3 +1,6 @@
+
+
+
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll } from 'framer-motion';
 
@@ -20,6 +23,7 @@ export function Cerebro (){
         }
       }, 30);
   
+      
       return () => clearInterval(interval);
     }, [currentFrame, isReversed]);
 
