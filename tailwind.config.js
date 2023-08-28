@@ -13,19 +13,18 @@ export default {
       colors:{
         'background': '#F1F1F1',
         purple: {
+          100: '#CC2EA9',
           400: '#BC2BAE',
           500: '#B331C7',
           900: '#550B60'
         },
         black: {
-          'black': '#242424'
+          600: '#646464',
+          800: '#242424'
         },
         white: {
           'white': '#FDFDFD'
         }
-      },
-      backgroundImage: {
-        'purple-gradient': 'linear-gradient(90deg, rgba(89,0,207,1) 0%, rgba(204,46,169,1) 100%);'
       },
       screens: {
         'sm': '320px',
