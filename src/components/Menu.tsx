@@ -14,10 +14,9 @@ interface IntervalId {
 export function Menu() {
     const imagens = [paperBall, paperBall2, paperBall3, paperBall4];
 
-
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false); // vê se o menu está aberto ou fechado
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isHovered, setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState(false); //controla quando está com hover
     const [intervalId, setIntervalId] = useState<IntervalId>({ id: null });
 
     const [isIntroPlaying, setIsIntroPlaying] = useState(true); // Estado para controlar a introdução

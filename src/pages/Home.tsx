@@ -30,14 +30,24 @@ import tinta4 from '../assets/img/paper-obj/tinta/04.png'
 
 export function Home(){
     return (
-        <div>
-            <Menu />
-            <Cerebro />
+        <div className="relative">
+            <div className="absolute w-full left-0 top-0">
+                <Menu />
+            </div>
 
-            <Papel img1={lamp1} img2={lamp2} img3={lamp3} img4={lamp4} />
-            <Papel img1={origami1} img2={origami2} img3={origami3} img4={origami4} />
+            <div className="relative flex items-center justify-center w-full h-full">
+                <h1 className="absolute font-title"></h1>
+                <div className="w-full h-full z-10 ">
+                    <Cerebro />
+                </div>
+            </div>
+            <div className="relative">
+                <Papel img1={lamp1} img2={lamp2} img3={lamp3} img4={lamp4} />
+                <Papel img1={origami1} img2={origami2} img3={origami3} img4={origami4} />
             <Papel img1={pincel1} img2={pincel2} img3={pincel3} img4={pincel4} />
             <Papel img1={tinta1} img2={tinta2} img3={tinta3} img4={tinta4} />
+            </div>
+            
         </div>
     )
 }
